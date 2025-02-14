@@ -10,6 +10,8 @@ public void main() {
     System.out.println("b: ");
     b= Integer.parseInt(scanner.nextLine());
 
+    scanner.close();
+
     while (b != 0){
         r = a % b;
         a = b;

@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public void main() {
-    ArrayList<Integer> a = new ArrayList<>(), b = new ArrayList<>(), r = new ArrayList<>(), q, x, y;
+    ArrayList<Integer> a = new ArrayList<>(), b = new ArrayList<>(), r = new ArrayList<>();
 
     Scanner scanner = new Scanner(System.in);
 
@@ -10,6 +10,8 @@ public void main() {
     a.add(Integer.parseInt(scanner.nextLine()));
     System.out.println("b: ");
     b.add(Integer.parseInt(scanner.nextLine()));
+
+    scanner.close();
 
     r.add(99);
 
